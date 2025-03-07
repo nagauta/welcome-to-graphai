@@ -1,0 +1,29 @@
+{
+  "name": "app-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphai/openai_agent": "^0.2.0",
+    "@graphai/vanilla": "^0.2.6",
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "@modelcontextprotocol/server-filesystem": "^0.5.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.10",
+    "@types/react": "18.3.3",
+    "eslint": "^8.57.0",
+    "graphai": "^0.6.6",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  },
+  "description": ""
+}
